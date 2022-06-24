@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*font-family: 'Fraunces', serif;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: hsl(30, 38%, 92%);
+  line-height: 1;
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hero-section {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1.4rem;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.line-through {
+  text-decoration: line-through;
+  margin-left: 1.7rem;
+}
+
+.perfume-info {
+  background-color: #fff;
+  padding: 1.9rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.perfume {
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+  word-spacing: 3rem;
+}
+
+.price {
+  display: flex;
+  margin-top: 2.2rem;
+  align-items: center;
+}
+
+.perfume-info h1 {
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+}
+
+
+
+.perfume-container {
+  background: url("images/image-product-mobile.jpg") no-repeat center ;
+  background-size: cover;
+  min-height: 50vh;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.new-price {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  font-size: 2.5rem;
+  
+}
+
+.btn {
+  border: 0;
+  background: hsl(158, 36%, 37%);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  margin-top: 1.5rem;
+}
+
+.btn:hover {
+  color: #ccc;
+}
+
+.cart-img {
+  margin-right: 0.5rem;
+}
+
+p:nth-child(3) {
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+@media(min-width: 600px) {
+  .hero-section {
+    display: flex;
+    max-width: 620px;
+  }
+
+    .perfume-container {
+      background: url("images/image-product-desktop.jpg") no-repeat center;
+      min-height: 50vh;
+      background-size: cover;
+      width: 900px;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 0.5rem;
+  }
+
+  .perfume-info{
+      border-top-right-radius: 0.5rem;
+  }
+
+ 
+
+}
+
+
