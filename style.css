@@ -41,7 +41,7 @@ p {
 .perfume {
   text-transform: uppercase;
   margin-bottom: 0.9rem;
-  word-spacing: 3rem;
+  letter-spacing: 0.4rem;
 }
 
 .price {
