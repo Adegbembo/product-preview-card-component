@@ -33,8 +33,7 @@ p {
 .perfume-info {
   background-color: #fff;
   padding: 1.9rem;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .perfume {
@@ -56,8 +55,7 @@ p {
 
 .image-container img {
   width: 100%;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .new-price {
@@ -101,17 +99,12 @@ p:nth-child(3) {
     .image-container img {
       height: 100%;
       width: 280px;
-      border-top-right-radius: 0;
-      border-bottom-left-radius: 0.5rem;
-      border-top-left-radius: 0.5rem;
+      border-radius: 0.5rem 0 0 0.5rem;
   }
 
   .perfume-info{
-      border-top-right-radius: 0.5rem;
+      border-radius: 0 0.5rem 0.5rem 0;
   }
 }
-
-
-
 
 
