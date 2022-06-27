@@ -32,7 +32,7 @@ p {
 
 .perfume-info {
   background-color: #fff;
-  padding: 1.9rem;
+  padding:  2rem;
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -55,6 +55,7 @@ p {
 
 .image-container img {
   width: 100%;
+  height: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
@@ -69,16 +70,17 @@ p {
   border: 0;
   background: hsl(158, 36%, 37%);
   color: #fff;
-  padding: 15px 30px;
-  border-radius: 5px;
+  padding: 1rem 2rem;
+  border-radius: 0.7rem;
   width: 100%;
   font-weight: 700;
+  font-size: 1rem;
   font-family: inherit;
-  margin-top: 1.5rem;
+  margin-top: 1.7rem;
 }
 
 .btn:hover {
-  color: #ccc;
+  background-color: #306652;
 }
 
 .cart-img {
@@ -90,15 +92,15 @@ p:nth-child(3) {
   line-height: 1.7;
 }
 
-@media(min-width: 670px) {
+@media(min-width: 680px) {
   .hero-section {
     display: flex;
-    max-width: 640px;
+    max-width: 670px;
   }
 
     .image-container img {
       height: 100%;
-      width: 280px;
+      width: 300px;
       border-radius: 0.5rem 0 0 0.5rem;
   }
 
